@@ -1,3 +1,20 @@
+## Custom shortcuts
+
+Hold **Fn** (either bottom corner key) and press:
+
+| Keys | Action | ZMK binding |
+| --- | --- | --- |
+| Fn + H | Previous track | `&kp C_PREV` |
+| Fn + L | Next track | `&kp C_NEXT` |
+| Fn + J | Volume down | `&kp C_VOL_DN` |
+| Fn + K | Volume up | `&kp C_VOL_UP` |
+| Fn + M | Mute | `&kp C_MUTE` |
+| Fn + P | Play/pause | `&kp C_PP` |
+| Fn + , | Brightness down | `&kp C_BRI_DN` |
+| Fn + . | Brightness up | `&kp C_BRI_UP` |
+
+These live on the `fn` layer in `config/adv360.keymap`.
+
 # Kinesis Advantage 360 Pro ZMK Config
 
 ## Modifying the keymap
